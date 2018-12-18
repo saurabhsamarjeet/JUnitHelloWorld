@@ -16,9 +16,9 @@
 	<properties>
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
-		!--  This format is used by SonarQube. If you need another format see "buildnumber-maven-plugin" -->
-<maven.build.timestamp.format>MM.yyyy</maven.build.timestamp.format>
-<yearMonth>${maven.build.timestamp}</yearMonth>    
+		<!--  This format is used by SonarQube. If you need another format see "buildnumber-maven-plugin" -->   
+		<maven.build.timestamp.format>MM.yyyy</maven.build.timestamp.format>
+<yearMonth>${maven.build.timestamp}</yearMonth>
 <!-- ************************-->
 <!-- Sonar/Reporting settings -->
 <!-- ************************-->
