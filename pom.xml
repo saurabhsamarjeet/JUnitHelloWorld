@@ -41,7 +41,6 @@
       </configuration>
       <executions>
         <execution>
-   <id>default-prepare-agent</id>
           <goals>
             <goal>prepare-agent</goal>
           </goals>
