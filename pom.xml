@@ -59,7 +59,7 @@ because we want to be to able to execute mvn sonar:sonar without passing a profi
 <!-- === END of Sonar/Reporting settings === -->
 		 </properties>
 		<!-- coverage -->
-<profile>
+<profiles>
     <id>coverage</id>
     <build>
         <plugins>
@@ -171,7 +171,7 @@ because we want to be to able to execute mvn sonar:sonar without passing a profi
             </plugin>
         </plugins>
     </build>
-</profile>
+</profiles>
  
 
 </project>
