@@ -16,7 +16,7 @@
 	<properties>
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
-<argLine>-Dfile.encoding=${project.build.sourceEncoding} ${argLine}</argLine>
+<argLine>-Dfile.encoding=${project.build.sourceEncoding}  @{argLine}</argLine>
 	</properties>
 	<build>
 	<plugins>
