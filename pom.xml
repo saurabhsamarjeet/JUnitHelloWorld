@@ -35,7 +35,7 @@
             </goals>
             <configuration>
                 <!-- Sets the path to the file which contains the execution data. -->
-                <destFile>${basedir}/target/coverage-reports</destFile>
+                <destFile>${basedir}/target/jacoco.exec</destFile>
                 <!--
                     Sets the name of the property containing the settings
                     for JaCoCo runtime agent.
@@ -55,9 +55,9 @@
             </goals>
             <configuration>
                 <!-- Sets the path to the file which contains the execution data. -->
-                <dataFile>${basedir}/target/coverage-reports</dataFile>
+                <dataFile>${basedir}/target/jacoco.exec</dataFile>
                 <!-- Sets the output directory for the code coverage report. -->
-                <outputDirectory>${basedir}/target/coverage-reports</outputDirectory>
+                <outputDirectory>${basedir}/target/jacoco-ut</outputDirectory>
             </configuration>
         </execution>
     </executions>
